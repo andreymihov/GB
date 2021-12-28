@@ -1,0 +1,219 @@
+.body {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: #222222;
+}
+
+.header-wrp{
+    display: flex;   
+    justify-content: space-between;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
+.header-logo {
+    margin-right: 41px;
+}
+
+.header-cart {
+    margin-left: 33px;
+}
+
+.header-people {
+    margin-left: 33px;
+}
+
+.header-nav {
+    display: none;
+}
+
+.brand {
+    background: #F1E4E6;
+}
+
+.bigman {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-info {
+    display: flex;
+    align-items: center;
+} 
+
+.brand-info img {
+    padding-right: 10px;
+}
+
+.brand-info p {
+    text-transform: uppercase;
+    width: 600px;
+}
+
+.brand-info-main {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+    
+}
+
+.brand-sub-info {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+
+}
+
+.brand-last-info {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #F16D7F;
+    }
+
+.deals {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    height: 470px;
+    
+    
+}
+
+.proposition {
+    margin-top: 65px;
+}
+
+.proposition-women {
+    width: 360px;
+    height: 260px;  
+    background-image: url(img/4.png);   
+}
+
+
+.proposition-men {
+    width: 360px;
+    height: 260px;
+    background-image: url(img/2.png);
+}
+
+
+.proposition-kids {
+    width: 360px;
+    height: 260px;
+    background-image: url(img/3.png); 
+}
+
+.proposition-trend {
+    width: 1140px;
+    height: 180px;
+    background-image: url(img/1.png);
+}
+
+ .proposition-main {
+     list-style-type:none;
+     margin-left: 0px;
+ }
+
+.proposition-women p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    text-transform: uppercase;
+}
+
+.proposition-women h2 {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.proposition-kids p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    text-transform: uppercase;
+}
+
+.proposition-kids h2 {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+
+.proposition-men p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    text-transform: uppercase;
+}
+
+.proposition-men h2 {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+
+.proposition-trend h2 {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+
+.proposition-trend p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    text-transform: uppercase;
+}
